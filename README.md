@@ -1,4 +1,4 @@
-# Ex.No.1---Data-Preprocessing
+# Ex.No.1 Data-Preprocessing
 ## AIM:
 
 To perform Data preprocessing in a data set downloaded from Kaggle
@@ -32,7 +32,7 @@ Another aspect is that the data set should be formatted in such a way that more 
 *Splitting the data into test and train
 
 ## PROGRAM:
-
+```
 #Developed by : SANJAY S
 #Reg num      : 212221243002
 
@@ -61,6 +61,7 @@ sc = StandardScaler()
 df1 = sc.fit_transform(df)
 print(df1)
 
+```
 ##OUTPUT:
 
 ![image](https://user-images.githubusercontent.com/115128955/229333570-ba17c5df-bd2e-4c01-ab35-2590bb18a56b.png)
